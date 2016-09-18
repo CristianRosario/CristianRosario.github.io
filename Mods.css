@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+#centerimg{
+  max-width: 20px;
+  opacity: 1;
+}
+#logo{ /*Logo*/
+  max-width: 200px;
+} /**/
+#task{ /* task bar */
+  z-index: 0;
+  margin: auto;
+  width: 80%;
+  background-color: transparent;
+}
+a:active, a:hover, a:link, a:visited, a:focus, a  {
+  color: black;
+  text-decoration: none;
+}
+li.Nav{
+  border-radius: 25px;
+  display: inline-block;
+  width: 245px;
+  background-color: #ccccff;
+  padding: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+} /* task bar */
+  /*creating a container*/
+div.Box{
+  z-index: 0;
+  position: relative;
+  width: 1030px;
+  height: 100%;
+  margin: auto;
+  margin-left: auto;
+   left: 20px;
+  right: auto;
+  background-color: #ccffff;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  overflow: hidden;
+  }
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#text{
+  opacity: 1;
+  text-align: left;
+  color: black;
+  font-family1: sans-serif;
+  font-size: 22px;
+}
+#text2{
+  opacity: 1;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+/*finishing the container*/
+div.Log{ /* log in */
+  display: inline;
+  width: 400px;
+}
+input{
+  line-height:  30px;
+  border: 1px solid #cecaca;
+}
+label{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+}
+input.myButton, input.Button{
+  border: 1px solid #cecaca;
+  background-color: #0a73c3;
+  color:white;
+}
+div.in{
+  margin: 20px;
+
+}/* log in */
+div.Lindo{ /*center text*/
+  opacity: 1;
+  position: relative;
+  overflow:hidden;;
+  border: solid
+  display:inline-block;
+  text-align: justify;
+  width: 500px;
+  height: 650px;
+  background-color: transparent;
+  left:250px;
+  top:10px;
+}
+p{
+  text-indent: 20px;
+}
+#mediaIcon{
+  max-width: 100px;
+  margin-top: 10px;
+  
+} /* end of center text */
+input.Button{
+  margin-left: 150px;
+}
+select{
+  display: inline;
+}
